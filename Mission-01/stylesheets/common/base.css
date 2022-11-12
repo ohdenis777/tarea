@@ -1,1 +1,8 @@
 /* Base 스타일 작성 */
+html {
+  box-sizing: border-box;
+  Width: 1020px;
+  Height: 1010px;
+  Top: 188px;
+  Left: 321px;
+}
