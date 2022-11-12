@@ -1,1 +1,28 @@
 /* CSS 작성 */
+
+
+
+.main-top {
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  flex-direction: row;
+}
+
+.main-top-left {
+  width: 117;
+  height: 28;
+  color: black;
+}
+
+.main-top-center {
+  width: 2;
+  height: 20;
+  color: gray;
+}
+
+.main-top-right {
+  width: 227;
+  height: 18;
+  color: gray;
+}
