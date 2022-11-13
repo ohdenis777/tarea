@@ -6,6 +6,11 @@ div {
 
 }
 
+#vamos {
+  width: 700px;
+  height: 700px;
+  justify-content: center
+}
 
 
 .main-top {
@@ -61,6 +66,7 @@ div {
   left: 15px;
   width: 40px;
   height: 40px;
+
 
 }
 
