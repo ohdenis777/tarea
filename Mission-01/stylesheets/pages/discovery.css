@@ -51,4 +51,18 @@ div {
 
 .button22 {
   position: absolute;
+  top: 230px;
+  left: 10px;
+}
+
+.main-center-top {
+  display: flex;
+}
+
+.main-center-center {
+  display: flex;
+}
+
+.main-center-bottom {
+  display: flex;
 }
