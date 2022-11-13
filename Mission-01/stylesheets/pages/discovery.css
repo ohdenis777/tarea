@@ -1,5 +1,11 @@
 /* CSS 작성 */
 
+div {
+
+  margin-bottom: 10px;
+
+}
+
 
 
 .main-top {
@@ -7,17 +13,19 @@
   align-items: center;
   letter-spacing: 3px;
   flex-direction: row;
+
 }
 
 .main-top-left {
   width: 117;
   height: 28;
   color: black;
+
 }
 
 .main-top-center {
   width: 2;
-  height: 20;
+  height: 100%;
   color: gray;
 }
 
@@ -26,4 +34,21 @@
   height: 18;
   color: gray;
   letter-spacing: 0;
+}
+
+.image-border:hover {
+  border: 2px solid blue
+}
+
+.image-border:focus {
+  border: 2px solid blue
+}
+
+.button11 {
+  position: relative;
+
+}
+
+.button22 {
+  position: absolute;
 }
