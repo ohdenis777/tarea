@@ -14,6 +14,13 @@ div {
   transform: translateX(-60%);
 }
 
+.maintot {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .main-top {
   display: flex;
