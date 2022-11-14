@@ -43,14 +43,6 @@ div {
   letter-spacing: 0;
 }
 
-.image-border:hover {
-  border: 2px solid blue
-}
-
-.image-border:focus {
-  border: 2px solid blue
-}
-
 .button1 {
   position: relative;
   margin-right: 20px;
@@ -70,7 +62,15 @@ div {
   width: 40px;
   height: 40px;
 
+  transition-property: all;
+  transition-duration: 0s;
+}
 
+.button3:hover {
+  width: 60px;
+  height: 40px;
+  background-color: rgb(60, 60, 240);
+  border: 2px solid rgb(94, 94, 224);
 }
 
 button {
