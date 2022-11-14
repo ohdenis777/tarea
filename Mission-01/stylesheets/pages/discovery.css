@@ -9,7 +9,9 @@ div {
 #vamos {
   width: 700px;
   height: 700px;
-  justify-content: center
+  position: absolute;
+  left: 50%;
+  transform: translateX(-60%);
 }
 
 
@@ -52,6 +54,7 @@ div {
 .button1 {
   position: relative;
   margin-right: 20px;
+
 }
 
 .button2 {
@@ -80,6 +83,7 @@ button {
 
 .main-center-center {
   display: flex;
+
 }
 
 .main-center-bottom {
