@@ -67,17 +67,23 @@ div {
 }
 
 .button3:hover {
-  width: 60px;
+  width: 120px;
   height: 40px;
   background-color: rgb(60, 60, 240);
   border: 2px solid rgb(94, 94, 224);
+  color: white;
 }
 
 .button3:focus {
-  width: 60px;
+  width: 120px;
   height: 40px;
   background-color: rgb(60, 60, 240);
   border: 2px solid rgb(94, 94, 224);
+  color: white;
+}
+
+.button3:hover:before {
+  content: '구매하기';
 }
 
 button {
